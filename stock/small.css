@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Bellefair&family=Love+Light&display=swap");
+
+/*
+PAGE HEADER
+font-family: 'Alegreya SC', serif;
+
+BUTTON
+font-family: 'Bellefair', serif;
+
+CHARACTER NAME
+font-family: 'Love Light', cursive;
+
+*/
+
+body {
+  background-image: url(../stock/bg-hp-default.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.results p {
+  color: rgba(209, 196, 74, 0.671);
+}
+
+.result {
+  background-color: rgba(75, 72, 66, 0.582);
+  /* border: 1rem double rgba(150, 132, 83, 0.192); */
+  border: 1rem double rgba(243, 182, 15, 0.363);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 400px;
+  width: 300px;
+}
+
+.result img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#hp_result p {
+  font-family: "Alegreya SC", serif;
+  padding: 5px;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.808);
+  text-shadow: 0px 5px 5px #aa850ac7;
+}
+
+#hp_name {
+  font-family: "Love Light", cursive;
+  font-size: 4.5rem;
+  position: relative;
+  top: -9.5rem;
+  letter-spacing: 1rem;
+  color: rgba(255, 248, 248, 0.87);
+  text-shadow: 0px 5px 10px #fae2a2a4;
+  font-weight: 800;
+}
+
+.house {
+  position: relative;
+  top: -9.6rem;
+  letter-spacing: 1rem;
+  font-size: 1.4rem;
+  color: #ffff;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-image: linear-gradient(
+    180deg,
+    rgb(252, 189, 107) 23.8%,
+    rgb(202, 138, 36) 92%
+  );
+  border: 4px solid rgb(179, 93, 12);
+  box-shadow: 0 0 20px rgb(99, 74, 41);
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Bellefair", serif;
+  font-size: 2rem;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: none;
+}
+
+footer {
+  margin-top: 0.5rem;
+  padding: 5px;
+  background-color: rgba(77, 62, 4, 0.308);
+  color: rgba(255, 255, 255, 0.74);
+}

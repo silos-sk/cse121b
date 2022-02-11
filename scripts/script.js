@@ -7,7 +7,7 @@ hp_btn.addEventListener("click", getRandomHp);
 
 // Get Random Harry Potter (HP) Character from API
 function getRandomHp() {
-  fetch("http://hp-api.herokuapp.com/api/characters")
+  fetch("https://hp-api.herokuapp.com/api/characters")
     .then((res) => res.json())
     .then((data) => {
       // Call random key generator function

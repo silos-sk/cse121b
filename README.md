@@ -1,5 +1,5 @@
 # CSE121B | JavaScript Course Project
-Random Harry Potter Character Generator
+Winter 2022 - Random Harry Potter Character Generator
 
 ## Tech Stack Used:
 HTML5, CSS3, CSS Transitions, JavaScript (External API, Event listeners, Arrays, Objects, Loops, JS Classes, Modular JS), Responsive Web Design

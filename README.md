@@ -8,4 +8,4 @@ Winter 2022 - Random Harry Potter Character Generator
 - JavaScript: External API, Event listeners, Arrays, Objects, Loops, Classes, Modular JS
 
 ## Summary:
-One-page App using External Public Harry Potter Characters API filtered to display only items with images and corresponding character information
+One-page App using External Public Harry Potter Characters API that randomly generates character and displays its corresponding image and information
